@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.hamburger div {
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  margin: 3px 0;
+  display: none;
+}
+#hamb{
+  display: none;
+}
+.big_container {
+  width: 70%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: azure;
+  padding: 20px 35px;
+}
+header h2 {
+  color: #660a79;
+}
+nav a {
+  padding-left: 40px;
+  color: black;
+  text-decoration: none;
+}
+.head_button {
+  padding: 5px 10px;
+  color: #660a79;
+}
+.one {
+  background-color: azure;
+  padding: 5px 35px;
+}
+@media screen and (max-width:480px) {
+  one{
+    width: 90%;
+  }
+  
+}
+.mini_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width:480px){
+.mini_one{
+  display: block;
+}
+}
+
+.one_text {
+  width: 50%;
+  margin-bottom: 150px;
+  margin-top: 30px;
+}
+@media screen and (max-width:480px){
+.one_text{
+width: 150%;
+}
+.one h1{
+  font-size: 53px;
+}
+}
+.one h1 {
+  width: 90%;
+  font-size: 45px;
+  color: #660a79;
+  margin-bottom: 20px;
+}
+@media screen and (max-width:480px){
+.one h1{
+  width: 70%;
+}
+}
+.one p {
+  font-size: 25px;
+  color: #660a79;
+  margin-bottom: 20px;
+}
+@media screen and (max-width:480px) {
+  .one p{
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .one_img img{
+    width: 110%;
+  }
+  
+}
+.one_button {
+  background-color: #660a79;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 3px;
+  border-color: #660a79;
+  text-decoration: none;
+}
+i {
+  color: #660a79;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.two {
+  padding: 50px 35px;
+}
+.mini_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mini div {
+  width: 45%;
+}
+.mini_two h3 {
+  margin-bottom: 30px;
+}
+.mini_two p {
+  text-align: center;
+  /* width: 90%; */
+}
+
+.two {
+  text-align: center;
+}
+.two_head {
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.line div{
+width: 95px;
+height: 2px;
+background-color:#660a79;
+margin-bottom: 120px;
+}
+.two_para {
+  width: 50%;
+  margin-left: 80px;
+}
+.mini_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 35px;
+}
+
+form {
+  background-color: #eeecef;
+  margin-bottom: 40px;
+  width: 30%;
+}
+input {
+  display: inline-block;
+  /* padding: 15px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 150px;
+  margin-bottom: 30px;
+  background-color: #9676a7;
+  border-color: #9676a7;
+}
+.formm {
+  padding: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  background-color: #eeecef;
+  /* padding-top: 90PX; */
+  margin-bottom: 10px;
+}
+.bigger {
+  padding-bottom: 90px;
+  padding-top: 20px;
+}
+.smaller {
+  padding-right: 15px;
+  text-align: center;
+  background-color: #660a79;
+  color: white;
+  font-size: 15px;
+  border-color: #660a79;
+  border-radius: 5px;
+}
+
+.three_text h3 {
+  /* margin-bottom: 20px; */
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.three_text li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.three_text {
+  background-color: #660a79;
+  width: 70%;
+  padding: 93.9px 120px;
+  color: white;
+}
+.three_text ul {
+  width: 70%;
+  margin-left: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 35px;
+  color: #660a79;
+}
+footer i {
+  font-size: 15px;
+}
+.footer_first {
+  margin-bottom: 100px;
+  margin-top: 10px;
+  width: 25%;
+}
+.footer_first p {
+  margin-top: 100px;
+}
+.footer_second {
+  margin-bottom: 71px;
+  width: 20%;
+}
+.footer_second h3 {
+  margin-bottom: 10px;
+}
+.none {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+@media only screen and (max-width:480px) {
+  .big_container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav{
+    display: none;
+  }
+  .hidee{
+    display: none;
+  }
+  .hamburger{
+    border: 2px solid red;
+      width: 25px;
+  height: 5px;
+  background-color: black;
+  margin: 3px 0;
+  }
+  
+}
